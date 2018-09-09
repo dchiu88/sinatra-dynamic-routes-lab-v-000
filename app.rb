@@ -9,4 +9,4 @@ class App < Sinatra::Base
   
   get '/square/:number'
     num = params[:number]
-    {num.to_s
+    (num.to_i**2)
